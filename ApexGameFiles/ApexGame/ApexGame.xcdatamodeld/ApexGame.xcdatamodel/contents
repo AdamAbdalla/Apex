@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CoinCount" representedClassName="CoinCount" syncable="YES" codeGenerationType="class">
+        <attribute name="count" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="ColorState" representedClassName="ColorState" syncable="YES" codeGenerationType="class">
+        <attribute name="color0" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="color1" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="color2" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="color3" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="color4" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="color5" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="color6" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="color7" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="current" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="HighScore" representedClassName="HighScore" syncable="YES" codeGenerationType="class">
+        <attribute name="score" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="CoinCount" positionX="-63" positionY="-9" width="128" height="58"/>
+        <element name="HighScore" positionX="-63" positionY="-18" width="128" height="58"/>
+        <element name="ColorState" positionX="-63" positionY="-9" width="128" height="178"/>
+    </elements>
+</model>
